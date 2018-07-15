@@ -1,0 +1,75 @@
+body{
+    background-color: rgba(2, 31, 53, 0.817)
+}
+
+
+.header{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5em;
+    color: rgb(24, 139, 152)
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(63, 63, 63, 0.8);
+    padding: .4em;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.9) 5px 5px 5px;
+    margin: .3em;
+}
+
+
+
+.links{
+    color: black;
+}
+
+picture{
+    align-content: center;
+}
+
+.wrapper {
+    
+	background: radial-gradient( rgba(43, 42, 64, 1), rgb(13, 104, 62));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 40s linear infinite alternate;
+	-moz-animation: Gradient 40s linear infinite alternate;
+	animation: Gradient 40s linear infinite alternate;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
